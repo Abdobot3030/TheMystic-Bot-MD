@@ -1501,7 +1501,7 @@ ${tradutor.texto1[1]} ${messageNumber}/3
         try {
           await plugin.call(this, m, extra);
           if (!isPrems) {
-            m.limit = m.limit || plugin.limit || true;
+            m.limit = m.limit || plugin.limit || false;
           }
         } catch (e) {
           m.error = e;
