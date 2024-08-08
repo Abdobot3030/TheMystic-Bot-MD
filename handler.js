@@ -49,7 +49,7 @@ export async function handler(chatUpdate) {
     global.mconn = m
     mconn = m
     m.exp = 0;
-    m.money = true;
+    m.money = false;
     m.limit = true;
     try {
       // TODO: use loop to insert data instead of this
