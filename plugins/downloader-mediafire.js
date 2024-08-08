@@ -36,6 +36,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
   }
 };
 handler.command = /^(mediafire|mediafiredl|dlmediafire)$/i;
+handler.limit = 5
 export default handler;
 
 async function mediafireDl(url) {
