@@ -49,8 +49,8 @@ export async function handler(chatUpdate) {
     global.mconn = m
     mconn = m
     m.exp = 0;
-    m.money = false;
-    m.limit = false;
+    m.money = true;
+    m.limit = true;
     try {
       // TODO: use loop to insert data instead of this
       const user = global.db.data.users[m.sender];
