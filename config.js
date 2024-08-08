@@ -7,23 +7,23 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = ""
+global.botnumber = "212680179043"
 global.confirmCode = ""
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['5218442286089', '💫 Mystic - Collaborator 4 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
-  ['5212412377467', '💫 Mystic - Collaborator 6 💫', true],
+  ['212614932692', '👑 MY - Creador 👑', true],
+  ['51940617554', '💫 Mystic - Collaborator 2 💫', false],
+  ['51996089079', '💫 Mystic - Collaborator 3 💫', false],
+  ['5218442286089', '💫 Mystic - Collaborator 4 💫', false],
+  ['50246028932', '💫 Mystic - Collaborator 5 💫', false],
+  ['5212412377467', '💫 Mystic - Collaborator 6 💫', false],
   ['5215517489568', '💫 Mystic - Rey Endymion 💫', false],
-  ['59895555511', '💫 Mystic - Collaborator 8 💫', true],
+  ['59895555511', '💫 Mystic - Collaborator 8 💫', false],
   ['573012482597', '💫 Mystic - OfcDiego', true],
-  ['59175655964', '💫 Mystic - By Alba070503 💫', true],
+  ['59175655964', '💫 Mystic - By Alba070503 💫', false],
   ['5493794297363', '💫 Mystic - Gabriel Ofc', true], 
-  ['393518398856', '💫 Mystic - Tester Fabri115💫', true],
-  ['212781160203', '💫 Mystic - Saad 💫', true], 
+  ['393518398856', '💫 Mystic - Tester Fabri115💫', false],
+  ['212781160203', '💫 Mystic - Saad 💫', false], 
   ['593968585283'],
   ['5492266466080'],
   ['5218442114446'],
