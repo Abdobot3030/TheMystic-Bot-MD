@@ -22,4 +22,5 @@ const handler = async (m, {conn, usedPrefix: prefix, command, text}) => {
   }    
 };
 handler.command = /^(apkmod|modapk|dapk2|aptoide|aptoidedl)$/i;
+handler.limit = 5
 export default handler;
