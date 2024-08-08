@@ -69,7 +69,7 @@ export async function handler(chatUpdate) {
         if (!isNumber(user.exp)) user.exp = 0;
         if (!('premium' in user)) user.premium = false;
         if (!isNumber(user.joincount)) user.joincount = 2;
-        if (!isNumber(user.limit)) user.limit = 20;
+        if (!isNumber(user.limit)) user.limit = 30;
         if (!isNumber(user.money)) user.money = 15;
         if (!('language' in user)) user.language = 'es';
         if (!('registered' in user)) user.registered = false;
@@ -205,7 +205,7 @@ export async function handler(chatUpdate) {
         if (!isNumber(user.gardenboxs)) user.gardenboxs = 0;
         if (!isNumber(user.gems)) user.gems = 0;
         if (!isNumber(user.glass)) user.glass = 0;
-        if (!isNumber(user.glimit)) user.glimit = 20;
+        if (!isNumber(user.glimit)) user.glimit = 30;
         if (!isNumber(user.glory)) user.glory = 0;
         if (!isNumber(user.gold)) user.gold = 0;
         if (!isNumber(user.griffin)) user.griffin = 0;
@@ -359,7 +359,7 @@ export async function handler(chatUpdate) {
         if (!isNumber(user.lelebakar)) user.lelebakar = 0;
         if (!isNumber(user.leleg)) user.leleg = 0;
         if (!isNumber(user.level)) user.level = 0;
-        if (!isNumber(user.limit)) user.limit = 20;
+        if (!isNumber(user.limit)) user.limit = 30;
         if (!isNumber(user.limitjoinfree)) user.limitjoinfree = 1;
         if (!isNumber(user.lion)) user.lion = 0;
         if (!isNumber(user.lionexp)) user.lionexp = 0;
@@ -763,7 +763,7 @@ export async function handler(chatUpdate) {
           lelebakar: 0,
           leleg: 0,
           level: 0,
-          limit: 20,
+          limit: 30,
           limitjoinfree: 1,
           lion: 0,
           lionexp: 0,
